@@ -1,0 +1,165 @@
+/* BASIC SETUP */
+body {
+  margin: 0;
+  background-color: #7ea9d6;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  /* for font size 16px = 100% = 1em **add the r to em so that way it does not inherit the parent em */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  margin-top: 50px;
+  color: #0b1219;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #0b1219;
+}
+
+h3 {
+  color: #0b1219;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  color: #0b1219;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #fff;
+
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #fff 6px;
+  border-bottom: 0;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.one-liner {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  color: #0b1219;
+}
+
+.top-container {
+  background-color: #6f9fed;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #7ea9d6;
+  margin: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  color: #0b1219;
+}
+
+.bottom-container {
+  background-color: #7da0c4;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0 20px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+/* Skills logos */
+.html-logo {
+  width: 12%;
+  float: left;
+  margin-right: 30px;
+}
+
+.css-logo {
+  width: 12%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-me{
+  color: #0b1219;
+}
+
+.profile-pic{
+border-radius: 5%;
+height: auto;
+width: 400px;
+
+}
+
+.copyright{
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 40px 0px;
+
+}
+
+/* contact me button  */
+
+
+.btn {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(5%, #6f9fed), to(#7093cc));
+	background:linear-gradient(to bottom, #6f9fed 5%, #7093cc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6f9fed', endColorstr='#7093cc',GradientType=0);
+	background-color:#6f9fed;
+	border-radius:8px;
+	border:1px solid #6f9fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #6f9fed;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(5%, #7093cc), to(#6f9fed));
+	background:linear-gradient(to bottom, #7093cc 5%, #6f9fed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7093cc', endColorstr='#6f9fed',GradientType=0);
+	background-color:#7093cc;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
